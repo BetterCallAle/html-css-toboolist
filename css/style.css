@@ -13,8 +13,13 @@ body{
 }
 
 .ml{
-    margin-left: 3.125rem;
+    margin-left: 4rem;
 }
+
+.mt{
+    margin-top:30px
+}
+
 /* /COMMON */
 
 /* HEADER */
@@ -40,7 +45,7 @@ h1{
 /* MAIN */
 .container{
     width: 60%;
-    margin: 0 auto 1px;
+    margin: 0 auto 2px;
     border-radius: 10px;
     background-color: white;
 }
@@ -74,5 +79,79 @@ h1{
 
 /* /Section Button */
 
+/* Section Lists */
+.lists{
+    padding-top: 30px;
+    color: #444851;
+}
+
+ul{
+    list-style-type:none;
+
+}
+
+li{
+    margin: 15px 0;
+}
+
+.list-item{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.marker{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border:1px solid;
+}
+
+.check{
+    color:#64c0a9;
+    border-color:#64c0a9;
+}
+
+.cross{
+    color:#eb5952;
+    border-color:#eb5952
+}
+
+.tag{
+    display: inline-block;
+    color: white;
+    border-radius: 1rem;
+    font-size: .7rem;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.editorial{
+    width: 60px;
+    background-color: #47adf1;
+}
+
+.goals{
+    width: 70px;
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    width: 70px;
+    background-color: #64c0a9;
+}
+
+.mobile{
+    width: 50px;
+    background-color: #f29e33;
+}
+
+/* /Section Lists */
 /* /MAIN */
 
