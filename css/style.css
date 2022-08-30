@@ -120,6 +120,7 @@ li{
 .tag{
     display: inline-block;
     color: white;
+    margin: 0 3px;
     border-radius: 1rem;
     font-size: .7rem;
     height: 30px;
