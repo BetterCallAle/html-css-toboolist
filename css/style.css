@@ -1,0 +1,78 @@
+/* RESET */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* /RESET */
+
+/* COMMON */
+body{
+    background-color:#F6F8F9;
+}
+
+.ml{
+    margin-left: 3.125rem;
+}
+/* /COMMON */
+
+/* HEADER */
+header{
+    height: 100px;
+    line-height: 100px;
+    padding: 0 1rem;
+    background-color: white;
+    margin-bottom: 3.125rem;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+/* /HEADER */
+
+/* MAIN */
+.container{
+    width: 60%;
+    margin: 0 auto 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Section Button */
+.button-row{
+    height: 80px;
+    line-height: 80px;
+}
+
+.button-row button{
+    vertical-align: middle;
+    margin-right:5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.tasks-button{
+    color: white;
+    background-color: #47adf1;
+    border-color:#47adf1;
+}
+
+.selection-button{
+    color: #c5cbd0;
+    background: none;
+    border-color: #c5cbd0;
+}
+
+/* /Section Button */
+
+/* /MAIN */
+
