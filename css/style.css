@@ -3,11 +3,14 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 /* /RESET */
 
 /* COMMON */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     background-color:#F6F8F9;
 }
@@ -45,7 +48,7 @@ h1{
     background-color: white;
 }
 
-/* Section Button */
+/* NAV */
 .button-row{
     height: 80px;
     line-height: 80px;
@@ -66,12 +69,12 @@ h1{
     border-color:#47adf1;
 }
 
-.selection-button{
+.section-button{
     color: #c5cbd0;
     background: none;
     border-color: #c5cbd0;
 }
-/* /Section Button */
+/* /NAV */
 
 /* Section Lists */
 .lists{
@@ -81,7 +84,6 @@ h1{
 
 ul{
     list-style-type:none;
-
 }
 
 li{
